@@ -13,6 +13,8 @@ def input_to_index(input)
   index = input.to_i - 1
 end
 
+index = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(board, index, value="X")
   board[index] = value
